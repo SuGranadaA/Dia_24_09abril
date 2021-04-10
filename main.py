@@ -85,16 +85,16 @@ hojai = sol2.active
 sol2.save('res2.xlsx')
 
 #Realizamos una operación, hallando el coseno
-cose = nmp.cos(A33)
+cose = nmp.cos(A22)
 print("El coseno: \n", cose, "\n")
 
 #Realizamos una operación, hallando el seno de un conjunto
-conjunto = [A44, B33, B44]
+conjunto = [A44, B22, B44]
 sen = nmp.sin(conjunto)
 print("El seno: \n", sen, "\n")
 
 #Realizamos una operación, sumando un coseno, un seno y un escalar
-suma = (nmp.cos(B22) + nmp.sin(A22) + 7)
+suma = (nmp.cos(B33) + nmp.sin(A44) + 7)
 print("La suma: \n", suma, "\n")
 
 #Realizamos una operación donde convertimos los datos en una matriz
